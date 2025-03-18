@@ -14,7 +14,7 @@ pipeline {
         stage('Test') {
             steps {
                 script {
-                    sh './file1'
+                    sh './file2' //This file doesnt exist
                 }
             }
         }
